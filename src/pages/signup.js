@@ -3,14 +3,12 @@ import * as Yup from "yup";
 import Link from "next/link";
 import Input from "@/components/FormInput";
 import Head from "next/head";
-import Layout from "@/containers/Layout";
-import axios from "axios";
-import toast from "react-hot-toast";
 import React, { useEffect } from "react";
 import { useRouter } from "next/router";
 import { useAuth, useAuthAction } from "@/context/AuthContext";
 // import { useDispatch, useSelector } from "react-redux";
 // import { userSignup } from "src/redux/user/userActions";
+import Layout from "../containers/Layout";
 
 //  initial values
 const initialValues = {

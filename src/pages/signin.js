@@ -3,13 +3,11 @@ import * as Yup from "yup";
 import Link from "next/link";
 import Input from "@/components/FormInput";
 import Head from "next/head";
-import Layout from "@/containers/Layout";
 import React, { useEffect } from "react";
-import axios from "axios";
-import toast from "react-hot-toast";
 import { useRouter } from "next/router";
 import { useAuth, useAuthAction } from "@/context/AuthContext";
 
+import Layout from "../containers/Layout";
 // import { useDispatch, useSelector } from "react-redux";
 // import { userSignin } from "src/redux/user/userActions";
 //  initial values
