@@ -8,7 +8,7 @@ import { useRouter } from "next/router";
 import { useAuth, useAuthAction } from "@/context/AuthContext";
 // import { useDispatch, useSelector } from "react-redux";
 // import { userSignup } from "src/redux/user/userActions";
-import Layout from "../containers/Layout";
+import Layout from "@/containers/Layout/Layout";
 
 //  initial values
 const initialValues = {
