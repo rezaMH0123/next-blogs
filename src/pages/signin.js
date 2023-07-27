@@ -6,7 +6,7 @@ import Head from "next/head";
 import React, { useEffect } from "react";
 import { useRouter } from "next/router";
 import { useAuth, useAuthAction } from "@/context/AuthContext";
-import Layout from "@/containers/Layout/Layout";
+// import Layout from "@/containers/Layout/Layout";
 
 // import { useDispatch, useSelector } from "react-redux";
 // import { userSignin } from "src/redux/user/userActions";
@@ -45,7 +45,7 @@ const SigninForm = () => {
   }, [user]);
 
   return (
-    <Layout>
+    <>
       <Head>
         <title>Front Hooks- Signup</title>
       </Head>
@@ -77,7 +77,7 @@ const SigninForm = () => {
           </Link>
         </form>
       </div>
-    </Layout>
+    </>
   );
 };
 
