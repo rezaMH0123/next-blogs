@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'vazir';
+    src: url('../../public/fonts/vazir/Vazir-Medium.eot');
+    src: url('../../public/fonts/vazir/Vazir-Medium.eot?#iefix') format('embedded-opentype'), url('../../public/fonts/vazir/Vazir-Medium.woff2') format('woff2'), url('../../public/fonts/vazir/Vazir-Medium.woff') format('woff');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'vazir';
+    src: url('../../public/fonts/vazir/Vazir-Bold.eot');
+    src: url('../../public/fonts/vazir/Vazir-Bold.eot?#iefix') format('embedded-opentype'), url('../../public/fonts/vazir/Vazir-Bold.woff2') format('woff2'), url('../../public/fonts/vazir/Vazir-Bold.woff') format('woff');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'vazir';
+    src: url('../../public/fonts/vazir/Vazir-Light.eot');
+    src: url('../../public/fonts/vazir/Vazir-Light.eot?#iefix') format('embedded-opentype'), url('../../public/fonts/vazir/Vazir-Light.woff2') format('woff2'), url('../../public/fonts/vazir/Vazir-Light.woff') format('woff');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Dastan';
+    src: url('../../public/fonts/dastan/Dastan.ttf');
+    src: url('../../public/fonts/dastan/Dastan.ttf?#iefix');
+    font-style: normal;
+}

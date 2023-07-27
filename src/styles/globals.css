@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@import url('font.css');
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -15,13 +17,9 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
+html,
 body {
+  background-color: rgb(243 244 246 );
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  /* font-family: 'vazir'; */
 }
